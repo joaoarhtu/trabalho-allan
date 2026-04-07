@@ -1,32 +1,29 @@
 # trabalho-allan
 
----
+Margin, Padding e Border — o que são?
 
-# 🌐 Arquivo: index.html (exemplo prático)
+Esses três fazem parte do modelo de caixa (box model) do CSS.
 
-```html
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Exemplo Box Model</title>
-  <style>
-    .caixa {
-      background-color: lightblue;
+🔹 Padding (preenchimento interno)
 
-      padding: 20px;   /* espaço interno */
-      border: 3px solid black; /* borda */
-      margin: 30px;   /* espaço externo */
-    }
-  </style>
-</head>
-<body>
+É o espaço dentro do elemento, entre o conteúdo e a borda.
 
-  <h1>Exemplo de Margin, Padding e Border</h1>
+padding: 10px;
 
-  <div class="caixa">
-    Este é um exemplo aplicando margin, padding e border.
-  </div>
+👉 Aumenta o “respiro” dentro do elemento.
 
-</body>
-</html>
+🔹 Border (borda)
+
+É a linha que envolve o elemento.
+
+border: 2px solid black;
+
+👉 Define espessura, estilo e cor.
+
+🔹 Margin (margem externa)
+
+É o espaço fora do elemento, separando ele dos outros.
+
+margin: 20px;
+
+👉 Afasta um elemento do outro.
